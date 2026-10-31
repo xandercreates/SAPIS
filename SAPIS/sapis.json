@@ -1,0 +1,118 @@
+{
+  "debug": false,
+  "messages": {
+    "startup": [
+      { "text": "SAPIS", "color": "#FFFF00" },
+      { "text": " online. Try ", "color": "white" },
+      { "text": "SAPIS, help", "color": "#00FF00", "clickEvent": { "action": "suggest_command", "value": "SAPIS, help" } },
+      { "text": "." }
+    ],
+    "hello": [
+      { "text": "Hello " },
+      { "text": "{user}", "color": "#FFFF00" },
+      { "text": "! Try ", "color": "white" },
+      { "text": "SAPIS, help", "color": "#00FF00", "clickEvent": { "action": "suggest_command", "value": "SAPIS, help" } },
+      { "text": "." }
+    ],
+    "ping" : [
+      { "text": "Pong!", "color": "#00FF00"}
+    ],
+    "unknown": [
+      { "text": "Unknown command " },
+      { "text": "'{command}'", "color": "red" },
+      { "text": ". Try " },
+      { "text": "SAPIS, help", "color": "#00FF00", "clickEvent": { "action": "suggest_command", "value": "SAPIS, help" } },
+      { "text": "." }
+    ],
+    "help": "Commands: \u00A7elocate <player>\u00A7r, \u00A7eonline\u00A7r, \u00A7ehelp\u00A7r, \u00A7ereload\u00A7r, \u00A7eping\u00A7r, \u00A7enuke\u00A7r, \u00A7ecredits\u00A7r, \u00A7eNEMESIS\u00A7r, \u00A7erps\u00A7r",
+    "locateUsage": "Usage: SAPIS, locate <player>",
+    "notOnline": [
+      { "text": "{user}", "color": "yellow" },
+      { "text": " is not online.", "color": "red" }
+    ],
+    "locateUndetected": [
+      { "text": "Could not locate " },
+      { "text": "{user}", "color": "yellow" },
+      { "text": " (other dimension or out of range).", "color": "gray" }
+    ],
+    "locateFailed": "Could not locate \u00A7e{user}\u00A7r.",
+    "locateOk": [
+      { "text": "{user}", "color": "yellow" },
+      { "text": " is at " },
+      { "text": "{x}, {y}, {z}", "color": "green" }
+    ],
+    "online": [
+      { "text": "Online " },
+      { "text": "({count})", "color": "gray" },
+      { "text": ": " },
+      { "text": "{players}", "color": "green" }
+    ],
+    "noPlayers": "No players online.",
+    "detectorUnavailable": "Player detector unavailable.",
+    "reloaded": "Reloaded sapis.json.",
+    "reloadFailed": "Could not reload sapis.json.",
+    "error": [
+      { "text": "Error: ", "color": "red" },
+      { "text": "{error}", "color": "gray" }
+    ],
+    "nuke": [
+    { "text": "KABOOM!", "color": "#00FF00"}
+    
+    
+    ],
+    
+    "credits": [
+     { "text": "The credits to the creation of SAPIS goes to XanderCreates for coding alot of SAPIS, to Liammy_01 who created the idea of SAPIS and coded a few things, and to Lemon for inspiration", "color": "gray"}
+    ],
+    
+    "NEMESIS": [
+    { "text": "I knew a guy named Nemesis, he was a rude guy, kept blowing stuff up, till he got blown up, don't be like Nemesis", "color": "gray"}
+   ],
+   
+    "rps": [   
+        { "text": "USAGE: ", "color": "#FFA700" },
+        { "text": "SAPIS, rps <rock, paper, or scissors>", "color": "#FFFF00"}
+   ],
+   "rps_player_win": [
+        { "text": "I chose \u00A7a{choice}\u00A7r. You win!", "color": "gray"}
+   ],
+   "rps_player_lost": [
+        { "text": "I chose \u00A7a{choice}\u00A7r. I win!", "color": "gray"}
+   ],
+   "rps_player_draw": [
+        { "text": "I chose \u00A7a{choice}\u00A7r. It's a tie!", "color": "gray"}
+   ],
+   "rps_invalid": [
+        { "text": "No valid input detected, randomizing...", "color": "gray"}
+   ],
+   "rps_random": [
+        { "text": "Feeling \u00A7eLucky\u00A7r today, are we? Rolling...", "color": "gray"}
+   ],
+   "rps_choice":[
+        { "text": "You chose.. \u00A7a{choice}\u00A7r!", "color": "gray"}
+   ],
+   "rps_unamused": [
+        { "text": "Hardy Har Har. Sorry, But I can't allow you to use that. You're... getting \u00A7ca randomized result\u00A7r!", "color": "gray"}
+   ],
+   "rps_gun": [
+        { "text": "What are you, \u00A76{randomage}\u00A7r? Anyways...", "color": "gray"}
+   ],
+   "rps_nuke": [
+        { "text": "And crash the server? \u00A7eNooooo\u00A7r thank you!", "color":"gray"}
+   ],
+   "rps_choice_random": [
+        { "text": "You play.. \u00A7a{choice}\u00A7r!", "color": "gray"}
+   ],
+   "rps_retry": [
+        {"text":"Retrying now...","color":"gray"}
+   ],
+     "save": [
+        { "text": "I got you boss, pulling you out", "color": "gray" }
+        
+    ],
+     
+     "notadmin": [
+         { "text": "Sorry, you don't have access to that command,", "color": "gray" }
+     ]
+   }
+}
