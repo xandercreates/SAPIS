@@ -397,11 +397,16 @@ commands.ping = function()
     return msg("ping")
 end
 
+--Im not sure why this isn't working properly, im using redstone.setOutput("bottom") to do it, if I add that it just gives me an error
+ 
 commands.pull = function()
+ 
     if username == "Liammy_01" then
-        return msg("NEMESIS")
+        
+        return msg("save")
+        
     else
-        return msg("nuke")
+        return msg("notadmin")
     end
 end
 
